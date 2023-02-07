@@ -16,73 +16,14 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-    <style>
-      .navbar-brand:hover {
-        opacity: 0.5;
-      }
-      .nav-link:hover {
-        opacity: 0.5;
-      }
-      .carousel-link{
-        color: black;
-        font-size: 12px;
-      }
-      a {
-        color: black;
-        text-decoration: none;
-      }
-      a:hover {
-        color: black;
-      }
-      .div_img1{
-        background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/w_578,c_limit/a1505f4b-d49f-473c-aa75-b183393eb440/nike-just-do-it.jpg");
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        height: 100vh;
-        width: 85vh;
-        margin: 0 auto;
-        
-      }
-      .div_img2{
-        background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/w_578,c_limit/9abaf756-a890-4ea9-91e0-97afd2323f06/nike-just-do-it.jpg");
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        height: 100vh;
-        width: 85vh;
-        margin: 0 auto;
-      }
-      .div_img3 {
-        background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/w_578,c_limit/f6e59ae1-1180-4194-8e20-f90b10165411/nike-just-do-it.jpg");
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        height: 100vh;
-        width: 85vh;
-        margin: 0 auto;
-      }
-      .div_img4 {
-        background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/w_578,c_limit/44f75c58-3148-4e00-aac7-4472c01eab24/nike-just-do-it.jpg");
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        height: 100vh;
-        width: 85vh;
-        align-items: center;
-        margin: 0 auto;
-      }
-      @media screen and (max-width: 600px){
-
-      }
-
-/*       #id-nf:hover #id-nf-div{
-        display: block; */
-      }
-    </style>
+   <link rel="stylesheet" href="style.css">
     
   </head>
   <body>
 
     <!-------------------1st nav bar  ------------------->
     <nav class="" style="background-color: rgb(239, 239, 239); padding: 0%">
-      <div class="container-fluid ps-5 p-0" style="display: flex; justify-content: space-between; height: 37px;">
+      <div class="container-fluid ps-5 p-0" style="display: flex; justify-content: space-between; height: 40px;">
         <div>
           <a class="navbar-brand pe-2 pt-5" href="#"><img src="https://img.icons8.com/ios/452/air-jordan.png" height="21rem" alt=""></a>
             <a class="navbar-brand" href="#"><img src="https://www.logo.wine/a/logo/Converse_(shoe_company)/Converse_(shoe_company)-Icon-Logo.wine.svg" height="30rem" alt=""></a>
@@ -221,13 +162,15 @@
       </figcaption>
   </div>
 
+
+
   <!---------------------Featured Style--------------------->
-<div class="container-fluid">
-  <div class="container">
+<!-- <div class="container">
+  
     <p class="fs-4">Featured</p>
     <div class="row">
       <div class="col-lg-5 col-md-5 div_img1 mb-4">
-        <figcaption class="fs-3 text-light" style="font-weight: 500; position: relative; top: 400px;">
+        <figcaption class="fs-3 text-light" style="font-weight: 500; position: absolute; top: 400px;">
           Feel the Force <br>Inside you
           <br>
           <button class="btn btn-light ps-4 pe-4 mt-4" style="border-radius: 50px;">Shop</button>
@@ -241,7 +184,26 @@
         </figcaption>
       </div>
     </div>
+</div> -->
+<div class="container-fluid">
+<div class="row">
+  <div class="container1 col-lg-6 col-md-6 mb-4">
+    <img src="https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/w_578,c_limit/a1505f4b-d49f-473c-aa75-b183393eb440/nike-just-do-it.jpg" alt="Nature" style="width:100%">
+    <div class="text-block1">
+      <p>Feel the Force inside you</p>
+      <a href="#" class="btn btn-light ps-4 pe-4" style="border-radius: 50px;">Shop</a>
+    </div>
   </div>
+  <div class="container1 col-lg-6 col-md-6">
+    <img src="https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/w_578,c_limit/9abaf756-a890-4ea9-91e0-97afd2323f06/nike-just-do-it.jpg" alt="Nature" style="width:100%">
+    <div class="text-block1">
+      <p>Outrun the elements, Casual Wear</p>
+      <a href="#" class="btn btn-light ps-4 pe-4" style="border-radius: 50px;">Shop</a>
+    </div>
+  </div>
+</div>
+
+
 
   <div class="py-5"></div>
 
@@ -254,11 +216,11 @@
         <img src="https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/w_1167,c_limit/a6c38705-dd40-43f8-a1ca-9ba62db12896/nike-just-do-it.jpg" width="100%" alt="">
         <figcaption>
           <p  class="text-center" style="font-size: 8vw; font-family: 'Anton', sans-serif;" class="lh-1">FLEECE FOR YOU</p>
-          <p class="fs-6 text-center">From premium Solo Swoosh Fleece picks to fresh Phoenix Fleece <br> silhoouettes, Nike Fleece never tries hard---it's always just right</p>
+          <p class="fs-6 text-center">From premium Solo Swoosh Fleece picks to fresh Phoenix Fleece silhoouettes, Nike Fleece never tries hard---it's always just right</p>
         </a>
-        <div class="text-center">
-          <a class="btn btn-dark btn-sm ps-4 pe-4 pt-2 pb-2" style="font-size: 16px; border-radius: 50px;" href="#">Shop All Fleece</a>
-          <a class="btn btn-dark btn-sm ps-4 pe-4 pt-2 pb-2" style="font-size: 16px; border-radius: 50px;" href="#">Explore Nike Fleece</a>
+        <div class="text-center fleece-btn">
+          <a class="btn btn-dark btn-sm ps-4 pe-4 pt-2 pb-2" style="font-size: 1rem; border-radius: 50px;" href="#">Shop All Fleece</a>
+          <a class="btn btn-dark btn-sm ps-4 pe-4 pt-2 pb-2" style="font-size: 1rem; border-radius: 50px;" href="#">Explore Nike Fleece</a>
         </div>
           </figcaption>
       </div>
@@ -405,12 +367,12 @@
     </div>
   </div>
 </div>
-
+</div>
 <!---------------Get Ready to Gift--------------------->
 
-
-  <div>
-    <p class="fs-4">Nike Fleece</p>
+ 
+  <div class="container-fluid">
+    <p class="fs-4">Get Ready to Gift</p>
     <div class="row">
       <div class="col-lg-12" style="position: relative;">
         <img src="https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/w_1167,c_limit/ecc7a436-8cb8-4694-b192-0b59977609ea/nike-just-do-it.jpg" width="100%" alt=""  class="img-fluid" >
